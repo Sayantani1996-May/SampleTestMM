@@ -1,0 +1,58 @@
+[
+  {
+    "uri": "features/SampleTest.feature",
+    "id": "SampleTestMassMutual",
+    "keyword": "Feature",
+    "name": "SampleTest",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "SampleTestMassMutual",
+        "keyword": "Scenario",
+        "name": "Verify the right count of values appear on the Screen",
+        "description": "",
+        "line": 6,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I open the "http://abc.com"",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/samplestep_def.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7336000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "The page load successfully",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/samplestep_def.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 936000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the total count of the values is "5",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/samplestep_def.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90006000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

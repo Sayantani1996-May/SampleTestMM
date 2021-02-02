@@ -1,0 +1,2 @@
+default: -r features --tags ~@wip --color --format pretty --format json -o results.json --dotcucumber features/.step_definitions
+ci: -r features DISPLAY=:99.0 HEADLESS=true TRAVIS=true --tags ~@wip --format progress --format json -o results.json 
